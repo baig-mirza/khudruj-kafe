@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.bigContainer
+{
+    background-color: #ffd230;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+ 
+}
+.container 
+{
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+}
+.khudruj-logo
+{
+    width: 100px;
+    border-radius: 50%;
+}
+.logo-name 
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+}
+.brand-slogan 
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-image
+{
+    background-image: url('images/op.webp');
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: fixed;
+}
+.order-now 
+{
+    background-color: #ffd230;
+    border: 1px solid #ffd230;
+    padding: 20px 50px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+}
+/*creating the classes for on scroll show elements */
+.reveal
+{
+    position: relative;
+    transform: translateY(30%);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active
+{
+    transform: translateY(0%);
+    opacity: 1;
+}
+.sho 
+{
+    position: relative;
+    transform: translateX(-20%);
+    opacity: 0;
+    transition: all 2.5s ease;
+}
+.sho.active 
+{
+    transform: translateX(0%);
+    opacity: 1;
+}
+/*about us section */ 
+#about-us 
+{
+    padding: 7% 7%;
+    align-items: center;
+}
+.coffee-img 
+{
+    width: 500px;
+    border-radius: 8%;
+    height: 550px;
+    border: 5px solid #ffd230;
+}
+@media (min-with: 300px) and (max-width: 700px)
+{
+    
+    .bigContainer .banner-image
+    {
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        background-size: 100%;
+    }
+    .container 
+    {
+        padding: 0;
+    }
+    .banner-image
+    {
+        background-image: url('images/op.webp');
+        width: 300px;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 350px)
+{
+    .logo-name
+    {
+        font-size: 1.5rem;
+    }
+    .brand-slogan 
+    {
+        font-size: 15px;
+    }
+}
