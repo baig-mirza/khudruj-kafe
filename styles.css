@@ -314,7 +314,7 @@ strong
     }
 }
 
-@media (min-width: 420px) and (max-width: 430px)
+/*@media (min-width: 420px) and (max-width: 430px)
 {
     .car 
     {
@@ -353,7 +353,7 @@ strong
         width: 350px;
     }
 }
-
+*/
 @media (min-width: 1000px) and (max-width: 1100px) 
 {
     .burger  
