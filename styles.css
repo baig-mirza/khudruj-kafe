@@ -174,7 +174,7 @@ strong
     margin-top: 230px;
     margin-left: 249px;
 }
-@media (min-width: 300px) and (max-width: 350px)
+@media (min-width: 320px) and (max-width: 350px)
 {
     .logo-name 
     {
@@ -213,9 +213,13 @@ strong
         border-radius: 0%;
         width: 255px;
     }
-    .aboutInfo 
+    #about-us 
     {
         text-align: center;
+    }
+    #view-menu 
+    {
+        background-color: red;
     }
 }
 
