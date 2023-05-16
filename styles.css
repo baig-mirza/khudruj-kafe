@@ -213,7 +213,10 @@ strong
         border-radius: 0%;
         width: 255px;
     }
-
+    .aboutInfo 
+    {
+        text-align: center;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 380px)
