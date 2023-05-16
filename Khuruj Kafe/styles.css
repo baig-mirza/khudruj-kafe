@@ -1,0 +1,386 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.bigContainer
+{
+    background-color: #ffd230;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+ 
+}
+.container 
+{
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+}
+.khudruj-logo
+{
+    width: 100px;
+    border-radius: 50%;
+}
+.logo-name 
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+}
+.brand-slogan 
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-image
+{
+    background-image: url('images/op.webp');
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: fixed;
+}
+.order-now 
+{
+    background-color: #ffd230;
+    border: 1px solid #ffd230;
+    padding: 20px 50px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+}
+/*creating the classes for on scroll show elements */
+.reveal
+{
+    position: relative;
+    transform: translateY(30%);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active
+{
+    transform: translateY(0%);
+    opacity: 1;
+}
+.sho 
+{
+    position: relative;
+    transform: translateX(-20%);
+    opacity: 0;
+    transition: all 2.5s ease;
+}
+.sho.active 
+{
+    transform: translateX(0%);
+    opacity: 1;
+}
+/*about us section */ 
+#about-us 
+{
+    padding: 7% 5%;
+    font-family: 'Kanit', sans-serif;
+}
+.coffee-img 
+{
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid #ffd230;
+    margin-right: 10%;
+}
+strong 
+{
+    color: #ffd230;
+}
+.aboutTitle
+{
+    font-size: 3rem;
+}
+.car 
+{
+    text-align: left;
+}
+.aboutInfo 
+{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+/* view full menu section */ 
+#view-menu 
+{
+    background-color: #ffd230;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.menu-title 
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    margin-top: 50px;
+}
+.btnFullMenu
+{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.burger 
+{
+    height: 250px;
+    position: absolute;
+    border-radius: 10%;
+}
+.burgerDiv
+{
+    background-color: white;
+    border-radius: 3%;
+    text-align: center;
+    padding: 6% 3%;
+    width: 380px;
+    position: relative;
+    z-index: 1;
+    margin-top: 230px;
+    margin-left: 128px;
+}
+.burgerTitle
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.8rem;
+}
+.burgertext 
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.wings 
+{
+    height: 250px;
+    position: absolute;
+    border-radius: 10%;
+    margin-left: 120px;
+}
+.wingsDiv 
+{
+    background-color: white;
+    border-radius: 3%;
+    text-align: center;
+    padding: 6% 3%;
+    width: 325px;
+    position: relative;
+    z-index: 1;
+    margin-top: 230px;
+    margin-left: 249px;
+}
+@media (min-width: 300px) and (max-width: 350px)
+{
+    .logo-name 
+    {
+        font-size: 3rem;
+    }
+    .car 
+    {
+        text-align: center;
+    }
+    .burger 
+    {
+        margin-top: 50px;
+        border-radius: 0%;
+        position: static;
+        height: 180px;
+    }
+    .burgerDiv 
+    {
+        margin-top: 0px;
+        margin-left: 16px;
+        border-radius: 0%;
+        width: 270px;
+    }
+    .wings 
+    {
+        position: static;
+        margin-left: 0px;
+        margin-top: 50px;
+        border-radius: 0%;
+        height: 200px;
+    }
+    .wingsDiv 
+    {
+        margin-top: 0px;
+        margin-left: 21px;
+        border-radius: 0%;
+        width: 255px;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 380px)
+{
+    .logo-name
+    {
+        font-size: 1.5rem;
+    }
+    .brand-slogan 
+    {
+        font-size: 15px;
+    }
+    .car 
+    {
+        text-align: center;
+    }
+    .aboutTitle
+    {
+        margin-top: 30px;
+    }
+    .burger
+    {
+        margin-top: 50px;
+        position: static;
+        border-radius: 0%;
+        height: 200px;
+    }
+    .burgerDiv 
+    {
+        margin-top: 0px;
+        margin-left: 24px;
+        border-radius: 0%;
+        width: 300px;
+    }
+    .wings 
+    {
+        position: static;
+        margin-left: 0px;
+        margin-top: 50px;
+        border-radius: 0%;
+        height: 240px;
+    }
+    .wingsDiv 
+    {
+        margin-top: 0px;
+        margin-left: 21px;
+        border-radius: 0%;
+        width: 310px;
+    }
+    
+}
+
+@media (min-width: 710px) and (max-width: 800px)
+{
+    .car
+    {
+        text-align: center;
+    }
+    .aboutTitle
+    {
+        margin-top: 50px;
+    }
+    .burger 
+    {
+        margin-top: 50px;
+        height: 250px;
+        position: static;
+        border-radius: 0%;
+    }
+    .burgerDiv
+    {
+        margin-top: 0px;
+        margin-left: 160px;
+        width: 375px;
+        border-radius: 0%;
+    }
+    .wings 
+    {
+        position: static;
+        margin-top: 50px;
+        margin-left: 0px;
+        border-radius: 0%;
+        height: 280px;
+    }
+    .wingsDiv 
+    {
+        margin-top: 0;
+        border-radius: 0%;
+        margin-left: 165px;
+        width: 363px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 430px)
+{
+    .car 
+    {
+        text-align: center;
+    }
+    .aboutTitle
+    {
+        margin-top: 30px;
+    }
+    .burger 
+    {
+        position: static;
+        margin-top: 50px;
+        border-radius: 0%;
+    }
+    .burgerDiv 
+    {
+        margin-top: 0;
+        margin-left: 15px;
+        border-radius: 0%;
+        width: 370px;
+    }
+    .wings 
+    {
+        position: static;
+        border-radius: 0%;
+        margin-top: 50px;
+        margin-left: 0px;
+        height: 275px;
+    }
+    .wingsDiv 
+    {
+        margin-top: 0;
+        border-radius: 0%;
+        margin-left: 25px;
+        width: 350px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) 
+{
+    .burger  
+    {
+        height: 200px
+    }
+    .burgerDiv 
+    {   
+        width: 300px;
+        margin-top: 185px;
+        margin-left: 110px;
+    }
+    .wings 
+    {
+        height: 200px;
+        margin-left: 100px;
+    }
+    .wingsDiv 
+    {
+        margin-left: 210px;
+        margin-top: 185px;
+        width: 257px;
+    }
+}
+
+@media (min-width: 1400px) 
+{
+    .burgerDiv
+    {
+        margin-left: 150px;
+    }
+    .wingsDiv 
+    {
+        margin-left: 270px;
+    }
+}
+
